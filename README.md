@@ -13,6 +13,30 @@ Azure Blob publishing is also optional and can be tested locally through Azurite
 City configuration, geocoding cache, and raw extract persistence are also moving into PostgreSQL as runtime state.
 The same PostgreSQL runtime path can target either local Docker/Postgres or managed Azure Database for PostgreSQL through environment configuration.
 
+## Practicum
+
+This project is being shaped into a 6-7 week practicum for teams of 3-4 students.
+The idea is simple: you should get to build something real from beginning to end, not just complete a few disconnected exercises.
+
+You will use pieces of what you have already practiced in:
+
+1. React Native and frontend component thinking
+2. The 100-level Python Data Analytics course
+3. The 200-level Machine Learning with Python course
+
+This practicum is also about learning how a small software team works under a timeline.
+You will split up responsibilities, review each other's code, talk through blockers, and connect your work back into one shared application.
+By the end, you should be able to explain what your team built, how the data moves through the system, and what tradeoffs you made along the way.
+
+Use these practicum docs as your map.
+Some of them are starting points that your cohort or instructors can fill in as the project takes shape:
+
+- [Sample week-by-week project milestones](./docs/practicum/project_milestones.md)
+- [Project rubric](./docs/practicum/project_rubric.md)
+- [Task master list](./docs/practicum/master_list.md)
+- [(Optional) Extra credit](./docs/practicum/extra_credit.md)
+- [Team structure and leadership](./docs/practicum/team_structure.md)
+
 ## Main run guide
 
 Use `docs/setup/run_and_debug_guide.md` for:
