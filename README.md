@@ -40,9 +40,8 @@ Some of them are starting points that can be filled in as the starter repo and c
 - [Week 4 transform layer](./docs/practicum/week4.md)
 - [Week 5 pipeline runtime](./docs/practicum/week5.md)
 - [Week 6 dashboard and demo](./docs/practicum/week6.md)
-- [Week 7 optional extensions](./docs/practicum/week7.md)
 - [Task master list](./docs/practicum/master_list.md)
-- [(Optional) Extra credit](./docs/practicum/extra_credit.md)
+- [Week 7 optional extensions / extra credit](./docs/practicum/extra_credit.md)
 - [Team structure and leadership](./docs/practicum/team_structure.md)
 
 ## Main run guide
