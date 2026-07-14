@@ -1,16 +1,30 @@
+# Week 1: Project Orientation and Team Workflow
 
-## Week 1 Delineation
+Week 1 is about helping students understand the project they are about to build. The goal is to understand the product idea, agree on how the team will work, and create the first planning artifacts that will guide implementation.
 
-Week 1 is mostly about helping students enter the project safely.
-Most of the closed tickets in this grouping are materials the practicum team prepares ahead of time, not feature tickets students should rebuild.
+The AIR and PR references below point back to this instructor reference repo. Use them as planning breadcrumbs and examples of the kind of work that will eventually exist in the student project. The difference between the practicum and the courses taken in the past is the level of ambiguity. Most projects start with limited expectations and it is up to the team producing the work to decide on how to manage the work.
 
-| Item | Practicum setup or student task? | How students should use it |
-|---|---|---|
-| AIR-001 / PR #13: Quality gates | Practicum setup | The checks should already exist. Students should learn what the checks do, how to read a failed check, and how to get a small practice PR passing. |
-| AIR-002.1 / PRs #10 and #47: GitHub PR guide and Docker docs | Practicum material | Give this to students as Week 1 reading. Their task is to follow the workflow: branch, commit, push, open a PR, request review, and respond to feedback. |
-| AIR-002.2 / PRs #50 and #54: PR review, data pipeline overview, run/debug guide | Practicum material | Students use these docs to run the project locally, explain the pipeline stages in their own words, and know where to look when setup breaks. |
-| AIR-002.3 / PRs #56 and #57: Docs alignment and README link fixes | Practicum setup | These keep the repo usable for students. Students should benefit from the cleaned-up docs, not spend Week 1 redoing this work. |
-| AIR-005 / PR #14: `CITIES_FILE` usage docs | Practicum material | Students should read this as a small configuration example, then identify how city input data flows into the pipeline. |
-| AIR-134 / PRs #109 and #135: Architecture and runtime diagrams | Practicum material | Students should use these diagrams to map the app: extract, transform, load, PostgreSQL, dashboard API, React frontend, and deployment. |
-| Week 1 practice PR | Student task | Each team should make one low-risk PR, such as a short reflection, a tiny docs clarification, or a setup note discovered during onboarding. |
-| Week 1 team plan | Student task | Each team should choose roles for the first sprint, agree on meeting norms, and write down how they will handle blockers and reviews. |
+| Week 1 item | Related repo references | Practicum support or student deliverable? | What students should do |
+|---|---|---|---|
+| GitHub branch and PR workflow | AIR-002.1; PRs #10, #47 | Practicum support material | Read the workflow guide, then use it during the practice PR. Students should know how to create a branch, make a commit, push, create a PR, request review, and respond to feedback. |
+| Pull request review expectations | AIR-002.2; PR #50 | Practicum support material | Use the review guide as a model for the team's working agreement. Students should understand what kind of feedback is helpful, how to ask questions, and how to revise without taking review personally. |
+| Starter repo orientation | AIR-002.2, AIR-002.3; PRs #54, #56, #57 | Practicum support material | Review the repo structure and starter documentation. Students should identify what is already provided, what is intentionally missing, and where future work should live. |
+| Local tooling expectations | AIR-002.1, AIR-002.2; PRs #47, #54 | Practicum support material | Confirm the development tools they will need for later weeks, such as Git, Python, Docker, and Node. |
+| Quality gates and automated checks | AIR-001; PR #13 | Shared setup plus student responsibility | The practicum team should provide any starter checks. Students are responsible for understanding what the checks are for and getting their practice PR through the available review/check process. |
+| Product and data pipeline summary | AIR-002.2; PR #50 | Student deliverable | Write a short explanation of the product in the team's own words: what problem it solves, what data it needs, and what the planned pipeline should do. |
+| Target architecture diagram | AIR-134; PR #135 | Student deliverable | Draw the system the team plans to build. The diagram should include the planned extract, transform, load, storage, dashboard/API, frontend, and optional deployment pieces. |
+| Planned runtime flow | AIR-108; PR #109 | Student deliverable | Draw or describe what should happen when the future pipeline runs. Students should show the intended order of operations and where configuration, logs, database writes, and errors will fit. |
+| City input contract | AIR-005; PR #14 | Student deliverable | Define the expected city input shape for the project. Students should explain the purpose of a city configuration file, what columns it needs, and how it will eventually feed the extract layer. |
+| Practice PR | AIR-002.1, AIR-001; PRs #13, #47 | Student deliverable | Each team should submit one low-risk PR. Good options include the team working agreement, a planning artifact, or a small documentation clarification. |
+| Team working agreement | No direct AIR reference | Student deliverable | Each team should decide how they will divide roles, communicate blockers, review code, rotate responsibilities, and keep work moving during the practicum. |
+
+## Suggested Week 1 Turn-In
+
+By the end of Week 1, each team should submit:
+
+1. A link to a practice PR that went through review.
+2. A short product and pipeline summary written in their own words.
+3. A target architecture diagram.
+4. A planned runtime flow diagram or written runtime walkthrough.
+5. A short city input contract.
+6. A team working agreement.
