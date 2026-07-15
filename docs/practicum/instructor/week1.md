@@ -21,14 +21,3 @@ The AIR and PR references below point back to this instructor reference repo. Pr
 **Total student story points:** 16
 
 **Effort note:** Week 1 is intentionally lighter than the build weeks so teams have room to form, ask messy questions, and understand the product. If a team finishes early, they can get a gentle head start on Week 2 by sketching the AIR-003 city validation rules or the AIR-004 city file configuration path.
-
-## Suggested Week 1 Turn-In
-
-By the end of Week 1, each team should submit:
-
-1. A link to a practice PR that went through review.
-2. A short product and pipeline summary written in their own words.
-3. A target architecture diagram.
-4. A planned runtime flow diagram or written runtime walkthrough.
-5. A short city input contract.
-6. A team working agreement.

@@ -26,16 +26,3 @@ Some references point back to earlier data-contract work, but Week 6 should focu
 **Total student story points:** 34
 
 **Effort note:** Week 6 is still a strong week, but much of the risk depends on what is finished before it starts. If the class needs to trim scope, keep AIR-007 focused on a simple dashboard/API path and move extra chart views, display settings, or polish into Week 7.
-
-## Suggested Week 6 Turn-In
-
-By the end of Week 6, each team should submit:
-
-1. A dashboard API or data-serving path connected to the gold data contract.
-2. A React dashboard with useful summary and city-level views.
-3. Loading, empty, and error states.
-4. An end-to-end smoke test from pipeline output to dashboard display.
-5. A documented local demo path.
-6. Runtime configuration notes.
-7. Final project documentation and known limitations.
-8. A final demo that explains the product, architecture, data flow, team process, and tradeoffs.

@@ -52,16 +52,3 @@ Use `N/A` for practicum support materials, instructor-only setup, or handoff row
 | 5 | Scheduler/data pipeline runtime | AIR-010.x, AIR-011.x; PRs #67, #68, #94, #137, #146, #147. See [Week 5 pipeline runtime](./week5.md) for the support-material vs student-deliverable breakdown. | Create a reusable pipeline runner, wire the CLI/scheduler entrypoint, support manual runs, add logs and validation, and document runtime config and secrets. | 37 |
 | 6 | Frontend React, API, and demo | AIR-007.x; PRs #45, #90, #92, #93. See [Week 6 dashboard and demo](./week6.md) for the support-material vs student-deliverable breakdown. | Finish the React dashboard, connect it to the PostgreSQL-backed API, complete final integration checks, and prepare the final demo and handoff docs. | 34 |
 | 7 | Optional extensions | AIR-006, AIR-008, AIR-011, AIR-013, AIR-014, AIR-015, plus cohort-proposed enhancements. See [Week 7 optional extensions / extra credit](./extra_credit.md) for the extension menu and story-point estimates. | Pick extension work based on team interest, remaining time, and instructor guidance. | 123 available; recommend 8-13 selected |
-
-## Suggested Team Roles
-
-For a 3-person group, rotate these roles each week:
-
-1. Data/backend
-2. Frontend/API or DevOps
-3. QA, docs, and integration
-
-For 4-5 students, split QA from docs and split backend into pipeline and database.
-
-The main sequencing point is that PostgreSQL/load work should come before most frontend work.
-The React dashboard depends on the gold data contract, so Week 4 is the handoff from the data pipeline into the dashboard.

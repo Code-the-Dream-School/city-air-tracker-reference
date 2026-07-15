@@ -28,16 +28,3 @@ Service hosting can remain an optional Week 7 responsibility.
 **Total student story points:** 37
 
 **Effort note:** Week 5 is a strong week and should be protected from scope creep. If students are behind, keep the shared AIR-011 runner and manual CLI path as the core work, then move the AIR-010 scheduler entrypoint or scheduled-run validation into Week 7 optional extension work.
-
-## Suggested Week 5 Turn-In
-
-By the end of Week 5, each team should submit:
-
-1. A shared pipeline runner that coordinates extract, transform, and load.
-2. A manual CLI run path that uses the shared runner.
-3. Runtime logs for stage start, stage completion, success, and failure.
-4. Runner and CLI tests for success and failure cases.
-5. A scheduler-friendly entrypoint or schedule configuration plan.
-6. Runtime configuration and secrets guidance.
-7. A validation note showing how the team knows a run completed successfully.
-8. A Week 6 handoff note explaining what dashboard/API data is available and what runtime settings the frontend team will need.

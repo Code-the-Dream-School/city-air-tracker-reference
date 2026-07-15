@@ -15,7 +15,7 @@ The same PostgreSQL runtime path can target either local Docker/Postgres or mana
 
 ## Practicum
 
-This reference project is being shaped into a 6-7 week practicum for teams of 3-4 students.
+This reference project is being shaped into a 6-7 week practicum for teams of 4-5 students.
 Students will work from a forked starter repo with documentation, while this repo helps instructors understand the intended direction and keep teams on track.
 The idea is simple: students should get to build something real from beginning to end, not just complete a few disconnected exercises.
 
@@ -32,17 +32,10 @@ By the end, each team should be able to explain what they built, how the data mo
 Use these practicum docs as the instructor map.
 Some of them are starting points that can be filled in as the starter repo and cohort plan take shape:
 
-- [Sample week-by-week project milestones](./docs/practicum/project_milestones.md)
-- [Project rubric](./docs/practicum/project_rubric.md)
-- [Week 1 project onboarding](./docs/practicum/week1.md)
-- [Week 2 extract layer](./docs/practicum/week2.md)
-- [Week 3 storage layer](./docs/practicum/week3.md)
-- [Week 4 transform layer](./docs/practicum/week4.md)
-- [Week 5 pipeline runtime](./docs/practicum/week5.md)
-- [Week 6 dashboard and demo](./docs/practicum/week6.md)
-- [Task master list](./docs/practicum/master_list.md)
-- [Week 7 optional extensions / extra credit](./docs/practicum/extra_credit.md)
-- [Team structure and leadership](./docs/practicum/team_structure.md)
+- [Sample week-by-week project milestones](./docs/practicum/instructor/project_milestones.md)
+- [Project rubric](./docs/practicum/instructor/project_rubric.md)
+- [Task master list](./docs/practicum/instructor/master_list.md)
+- [Team structure and leadership](./docs/practicum/instructor/team_structure.md)
 
 ## Main run guide
 

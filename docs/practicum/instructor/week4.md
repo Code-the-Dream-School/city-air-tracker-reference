@@ -27,16 +27,3 @@ Frontend implementation can remain a later responsibility.
 **Total student story points:** 36
 
 **Effort note:** Week 4 is another strong week because the transform, load integration, and test safety net all depend on each other. If the team needs relief, keep the core AIR-012 transform/load contract first and move the AIR-007 dashboard-ready data-shape note or final data dictionary polish into Week 6 documentation work.
-
-## Suggested Week 4 Turn-In
-
-By the end of Week 4, each team should submit:
-
-1. A transform module or function that converts raw records into gold records.
-2. A documented gold data contract with required columns, types, keys, and upsert assumptions.
-3. Derived AQI/risk fields with the rule or formula explained.
-4. Integration with the Week 3 load/upsert path.
-5. Regression tests for normal, empty, incomplete, and repeated raw payloads.
-6. A dashboard-ready data shape note for later API/frontend work.
-7. A data dictionary update.
-8. A Week 5 handoff note explaining how the transform/load path should be called by the pipeline runner.

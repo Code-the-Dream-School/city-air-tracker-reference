@@ -31,13 +31,3 @@ Use the shared story point scale in [project_rubric.md](./project_rubric.md).
 **Total available optional story points:** 123
 
 **Effort note:** Week 7 is a menu, not a backlog to finish. A healthy team target is usually one 8-13 point extension, or a pair of smaller 2-5 point polish tasks if the team is recovering from the core build; anything larger than that should be split across students carefully or held for a future cohort.
-
-## Suggested Week 7 Turn-In
-
-By the end of Week 7, each team that chooses optional work should submit:
-
-1. One selected optional task with a short scope statement.
-2. A PR implementing the extension or a clearly documented partial implementation.
-3. Tests, verification notes, or screenshots appropriate to the task.
-4. Updated documentation explaining how to run, review, or maintain the extension.
-5. A short reflection on what was completed, what remains, and whether the story-point estimate felt accurate.

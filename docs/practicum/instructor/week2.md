@@ -26,15 +26,3 @@ The database-specific implementation can be handed off into Week 3.
 **Total student story points:** 27
 
 **Effort note:** Week 2 is a medium build week and should feel like the first real implementation push. If teams are moving quickly, they can start outlining the Week 3 AIR-012 persistence contract; if they are struggling, keep the OpenWeather client mocked and move deeper API polish into a later week.
-
-## Suggested Week 2 Turn-In
-
-By the end of Week 2, each team should submit:
-
-1. A PR for city input configuration and validation.
-2. A city loader interface or implementation.
-3. A geocoding boundary with a clear cache contract.
-4. A raw OpenWeather extract client or mocked extract client.
-5. A short raw response metadata contract for the transform/load teams.
-6. Tests or verification notes for fresh-start and invalid-input cases.
-7. A Week 3 handoff note for PostgreSQL-backed city loading, geocoding cache, and raw response persistence.

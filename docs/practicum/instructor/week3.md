@@ -28,17 +28,3 @@ The real transform logic can remain a Week 4 responsibility.
 **Total student story points:** 38 core, 43 with optional Parquet/archive output
 
 **Effort note:** Week 3 is one of the heaviest weeks because schema design, migrations, and persistence all land together. If the team is overloaded, keep AIR-009 as instructor-guided or move the optional Parquet/archive output out of the core plan; if needed, pipeline run tracking can also be simplified and revisited during Week 5 runtime work.
-
-## Suggested Week 3 Turn-In
-
-By the end of Week 3, each team should submit:
-
-1. A database schema design for cities, geocoding cache, raw responses, pipeline runs, and gold records.
-2. A migration or bootstrap workflow that creates the schema from scratch.
-3. A city seed/import path backed by PostgreSQL.
-4. Persistence for geocoding cache records and raw OpenWeather responses.
-5. Pipeline run tracking with status and useful row/count metadata.
-6. Gold table key and upsert rules, tested with sample records.
-7. Storage verification notes or tests.
-8. Optional Parquet/archive-storage output and verification notes, if included.
-9. A Week 4 handoff note explaining what raw data shape the transform layer should consume and what gold data shape the load layer expects.
