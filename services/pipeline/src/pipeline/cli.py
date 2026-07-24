@@ -16,7 +16,7 @@ def main() -> None:
     args = parser.parse_args()
 
     if args.seed_cities:
-        seed_cities_from_file(Path('../../../configs/cities.csv'))
+        seed_cities_from_file(Path(settings.cities_file))
         return
 
     run_pipeline_job(source=args.source, history_hours=args.history_hours)
