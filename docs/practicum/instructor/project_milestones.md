@@ -15,13 +15,12 @@ By the end of Week 1, each team should submit:
 
 By the end of Week 2, each team should submit:
 
-1. A PR for city input configuration and validation.
-2. A city loader interface or implementation.
-3. A geocoding boundary with a clear cache contract.
-4. A raw OpenWeather extract client or mocked extract client.
-5. A short raw response metadata contract for the transform/load teams.
-6. Tests or verification notes for fresh-start and invalid-input cases.
-7. A Week 3 handoff note for PostgreSQL-backed city loading, geocoding cache, and raw response persistence.
+1. An API direction and extraction plan with a trimmed response sample.
+2. A location input and validation implementation.
+3. A raw extract client for the selected primary OpenWeather API.
+4. A short raw response contract, sample, and Week 3 handoff describing later storage needs and unanswered questions.
+5. Extract tests or verification notes for invalid input, missing configuration, and API response failures.
+6. An optional second API integration with tests and documentation, if included.
 
 ## Suggested Week 3 Turn-In
 
