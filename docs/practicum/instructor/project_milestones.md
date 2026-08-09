@@ -26,28 +26,24 @@ By the end of Week 2, each team should submit:
 
 By the end of Week 3, each team should submit:
 
-1. A database schema design for cities, geocoding cache, raw responses, pipeline runs, and gold records.
-2. A migration or bootstrap workflow that creates the schema from scratch.
-3. A city seed/import path backed by PostgreSQL.
-4. Persistence for geocoding cache records and raw OpenWeather responses.
-5. Pipeline run tracking with status and useful row/count metadata.
-6. Gold table key and upsert rules, tested with sample records.
-7. Storage verification notes or tests.
-8. Optional Parquet/archive-storage output and verification notes, if included.
-9. A Week 4 handoff note explaining what raw data shape the transform layer should consume and what gold data shape the load layer expects.
+1. A transform input and output contract with updated process flow diagrams.
+2. A data dictionary for the transformed fields.
+3. A raw-to-clean transform implementation for the team's selected API.
+4. A normalization and data-quality rules table with the Sprint 3 rules implemented in the transform.
+5. Automated transform tests using Sprint 2 response samples.
 
 ## Suggested Week 4 Turn-In
 
 By the end of Week 4, each team should submit:
 
-1. A transform module or function that converts raw records into gold records.
-2. A documented gold data contract with required columns, types, keys, and upsert assumptions.
-3. Derived AQI/risk fields with the rule or formula explained.
-4. Integration with the Week 3 load/upsert path.
-5. Regression tests for normal, empty, incomplete, and repeated raw payloads.
-6. A dashboard-ready data shape note for later API/frontend work.
-7. A data dictionary update.
-8. A Week 5 handoff note explaining how the transform/load path should be called by the pipeline runner.
+1. A database schema based on the Sprint 3 transform contract and data dictionary.
+2. A migration or bootstrap workflow that creates the schema from scratch.
+3. Persistence for raw responses and transformed records.
+4. Record keys, uniqueness rules, and update/upsert behavior.
+5. Pipeline run tracking with useful status and count information.
+6. Storage tests or verification notes for empty, repeated, and updated data.
+7. Optional Parquet or archive output and verification notes, if included.
+8. A Week 5 handoff note explaining how the pipeline runner should call the transform and storage paths.
 
 ## Suggested Week 5 Turn-In
 
