@@ -63,7 +63,7 @@ By the end of Week 5, each team should submit:
 By the end of Week 6, each team should submit:
 
 1. A dashboard API or data-serving path connected to the gold data contract.
-2. A React dashboard with useful summary and city-level views.
+2. A React or Streamlit dashboard with useful summary and city-level views.
 3. Loading, empty, and error states.
 4. An end-to-end smoke test from pipeline output to dashboard display.
 5. A documented local demo path.
